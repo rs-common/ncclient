@@ -1,0 +1,9 @@
+[package]
+name = "ncclient"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quick-xml = { version = "0.27.1", features = ["serialize"] }
+ssh2 = { version = "0.9.3", features = ["vendored-openssl"] }
+serde = { version = "1.0.152", features = ["derive"] }

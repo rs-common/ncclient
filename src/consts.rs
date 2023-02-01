@@ -1,0 +1,9 @@
+pub const BASE_XML_NS: &str = "urn:ietf:params:xml:ns:netconf:base:1.0";
+pub const BASE_NS_1_0: &str = "urn:ietf:params:netconf:base:1.0";
+pub const BASE_NS_1_1: &str = "urn:ietf:params:netconf:base:1.1";
+pub const WRITABLE_RUNNING: &str = "urn:ietf:params:netconf:capability:writable-running:1.0";
+pub const STARTUP: &str = "urn:ietf:params:netconf:capability:startup:1.0";
+pub const CANDIDATE: &str = "urn:ietf:params:netconf:capability:candidate:1.0";
+pub const ROLLBACK_ON_ERROR: &str = "urn:ietf:params:netconf:capability:rollback-on-error:1.0";
+pub const WITH_DEFAULT: &str = "urn:ietf:params:netconf:capability:with-defaults:1.0";
+pub const NOTIFICATION: &str = "urn:ietf:params:netconf:capability:notification:1.0";
